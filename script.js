@@ -11,13 +11,12 @@
 
 var MutationObserver = window.MutationObserver || window.WebKitMutationObserver
 
-var maxWidth = 1300
-var sidebarWidth = 200
-var margin = 100
+var maxWidth        = 1300
+var sidebarWidth    = 200
+var margin          = 100
 
 var observer = new MutationObserver(function(mutations, observer) {
     // fired when a mutation occurs
-    console.log(mutations, observer);
 
     var windowWidth = window.innerWidth
     var descriptionHeight = window.innerHeight - (margin * 4)
