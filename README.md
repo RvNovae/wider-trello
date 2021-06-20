@@ -5,6 +5,6 @@ Can be activated in your browser by using an extension like [Tampermonkey](https
 
 If you don't like the defaults I've set, you can easily edit them at the top of the script.
 
-# TODO
+## TODO
 
 - make the observer more efficient
