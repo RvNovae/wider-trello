@@ -35,7 +35,7 @@ var observer = new MutationObserver(function(mutations, observer) {
     'use strict';
 
     // TODO: make this more efficient
-    observer.observe(document, {
+    observer.observe((document.getElementsByClassName("window")[0]), {
         subtree: true,
         attributes: true
     })
